@@ -690,6 +690,36 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		/*skills images*/
+		.skills-grid {
+			display: grid;
+			grid-template-columns: 25% 25% 25% 25%;
+			grid-template-rows: 55% 55%;
+			margin: auto;
+			justify-content: space-around;
+		}
+
+		.sg-child > img {
+			width: 70%;
+			height: 70%;
+			margin: 11% 11% 11% 11%;
+			border-radius: 5px;
+		}
+
+		.sg-child > span {
+			margin: 0;
+		}
+
+		.sg-child {
+			background: white;
+			display: flex;
+			flex-direction: column;
+		}
+
+	
+
+
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
